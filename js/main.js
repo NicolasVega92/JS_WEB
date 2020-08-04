@@ -39,7 +39,20 @@ $(document).ready(function(){
             content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices consequat sollicitudin. Praesent hendrerit, justo ut tristique facilisis, orci quam dictum ipsum, vel ornare arcu sapien a turpis. Curabitur at laoreet augue. Nulla laoreet lectus at suscipit hendrerit. Mauris quis lectus purus. Aenean et diam a lorem condimentum rhoncus sed nec turpis. Praesent in odio quis dui iaculis iaculis. Etiam ullamcorper justo neque, sed gravida metus sagittis ut. Vivamus vitae consectetur orci, et tristique leo. Duis eget congue sem, eget ultricies lorem. Suspendisse eget massa pulvinar, iaculis nunc hendrerit, pretium lacus. Quisque euismod sem sed nisl pellentesque porttitor. Sed cursus tristique ipsum, in porta urna commodo sit amet. Maecenas felis ex, facilisis pellentesque rhoncus ultricies, blandit at est.'
         },
     ];
-    console.log(posts);
+   
+    posts.forEach((item, index) => {
+        var post = `
+            <article class="post">
+                <h2>${item.title}</h2>
+                <span class="date">${item.date}</span>
+                <p>${item.content}</p>
+                <a href="#" class="button-more">Leer más</a>
+            </article>
+        `;
+        
+        $("#posts").append(post);
+
+    } );
 
 
 });

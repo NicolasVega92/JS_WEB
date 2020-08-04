@@ -1,0 +1,17 @@
+body{
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed; 
+    /*para que la imagen no se acabe en el fondo*/
+}
+
+#logo{
+    background: #c74932;
+}
+
+#menu ul li:hover{
+    background: #c74932;
+}
+
+.button-more{
+    background: #c74932;
+}

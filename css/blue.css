@@ -1,0 +1,17 @@
+body{
+    background: url('../img/montaña.jpg');
+    background-attachment: fixed; 
+    /*para que la imagen no se acabe en el fondo*/
+}
+
+#logo{
+    background: #51AAC2;
+}
+
+#menu ul li:hover{
+    background: #51AAC2;
+}
+
+.button-more{
+    background: #51AAC2;
+}
