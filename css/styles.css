@@ -194,4 +194,25 @@ footer{
     margin: 0px auto;
     margin-top: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to-green{
+    background: #5ac568;
+}
+
+#to-red{
+    background:#c74932 ;
+}
+
+#to-blue{
+    background: #51AAC2;
+}
+
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+    cursor: pointer;
 }
